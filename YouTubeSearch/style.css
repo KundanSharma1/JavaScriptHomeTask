@@ -1,0 +1,75 @@
+header{
+    text-align: center;
+    background-color: red;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+body{
+    margin: 0;
+}
+
+#logo{
+    height:40px;
+}
+
+#inputdiv{
+    text-align: center;
+    margin-top: 30px;
+}
+
+#value1{
+    width: 350px;
+    height: 25px;
+    border-radius: 5px;
+    border-width: 1px;
+}
+
+.video {
+    width: 220px;
+    height: 320px;
+    display: flex;
+    padding-left: 5%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    float: left;
+}
+
+.video >div{
+    margin-right: 10px;
+    width: 200px;
+}
+.videosnap{
+width: 200px;
+}
+.Title,.channelTitle{
+    font-size: small;
+}
+.publishTime,.description{
+    font-size: x-small;
+    color:grey; 
+}
+.channelTitle{
+    color: gray;
+}
+.description{
+    margin-bottom: 10px;
+}
+
+.prev-next{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin-bottom: 15px;
+}
+
+.btn{
+    background-color: red;
+    padding: 5px;
+    width: 100px;
+    color: white;
+    font-weight: bolder;
+    border-radius: 4px;
+    border-width: 2px;
+}
