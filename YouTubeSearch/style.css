@@ -57,6 +57,11 @@ width: 200px;
     margin-bottom: 10px;
 }
 
+#list{
+    list-style-type: none;
+    padding-left: 0;
+}
+
 .prev-next{
     display: flex;
     justify-content: space-around;

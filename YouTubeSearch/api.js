@@ -50,6 +50,7 @@ async function render(){
 
         list_ul=document.createElement("ul");
         videodescdiv.appendChild(list_ul);
+        list_ul.setAttribute('id','list');
         tilte_li=document.createElement('li');
         tilte_li.setAttribute("class","Title");
         videourl=document.createElement("a");
